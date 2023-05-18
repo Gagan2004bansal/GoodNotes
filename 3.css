@@ -1,0 +1,9 @@
+.body{
+    background: linear-gradient(to right , rgba(238, 19, 103, 0.753),rgba(0, 255, 255, 0.61));
+}
+
+.heading1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 100px;
+}

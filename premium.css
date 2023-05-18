@@ -1,0 +1,109 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right , rgba(238, 19, 103, 0.753),rgba(0, 255, 255, 0.61));
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    background: linear-gradient(to right , rgba(238, 19, 103, 0.753),rgba(0, 255, 255, 0.61));
+    grid-template-columns: repeat(4,335px);
+    grid-template-rows: repeat(1, 625px);
+}
+
+.box {
+    margin: 25px ;
+}
+
+#a{
+    background: linear-gradient(to right , rgba(238, 19, 103, 0.753));
+}
+#b{
+    background-color: rgb(179, 168, 168);
+    border-radius: 15px;
+    border: 2px solid rgba(238, 19, 103, 0.753);
+}
+
+#b:hover{
+    background-color: azure;
+}
+#c{
+    background-color: rgb(179, 168, 168);
+    border-radius: 15px;
+    border: 2px solid rgba(238, 19, 103, 0.753);
+}
+#c:hover{
+    background-color: azure;
+}
+#d{
+    background-color: rgb(179, 168, 168);
+    border-radius: 15px;
+    border: 2px solid rgba(238, 19, 103, 0.753);
+}
+#d:hover{
+    background-color: azure;
+}
+.p1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.pimg{
+    margin-left: 70px;
+    width: 150px;
+}
+
+.pcomp{
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: bolder;
+    color:rgba(0, 255, 255, 0.61);
+}
+
+.ptag{
+    color: bisque;
+}
+
+/* box 2 content*/
+
+.p2h{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.p2p{
+    text-align: center;
+    font-size: 65px;
+    color: grey;
+}
+
+.p2pp{
+    font-size: 20px;
+}
+
+#p1icon{
+    margin-left: 90px;
+    font-size: larger;
+}
+
+.space{
+    margin-top: 25px;
+    color: grey;
+    text-align: center;
+}
+
+.planbtn{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 2px;
+    margin-left: 35px;
+    text-align: center;
+    border-radius: 25px;
+}
