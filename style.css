@@ -12,9 +12,11 @@ body{
     grid-template-columns: 350px 900px;
     grid-template-rows: repeat(1, 625px);
 }
+
 .box {
     margin: 25px;
 }
+
 #one{
     background-color: white;
     border: 2px solid rgb(238, 19, 103);
@@ -175,7 +177,7 @@ body{
 .info{
     display: none;
     position: absolute;
-    background: rgba(135, 206, 250, 0.651);
+    background: rgba(73, 73, 73, 0.897);
     backdrop-filter: blur(5px);
     height: 400px;
     width: 650px;
@@ -260,6 +262,7 @@ input.textarea{
     margin-left: 400px;
     animation: pop .2s linear;
     overflow: hidden;
+    
 }
 
 @keyframes pop{
@@ -293,15 +296,17 @@ input.textarea{
 
 /* Dark Mode */
 .bttn{
-    width: 150px;
+    width: 100px;
     height: 50px;
-    margin-top: 20px ;
-    margin-left: 800px;
+    margin: 0px 15px 0px 0px  ;
     border-radius: 35px;
     background-color: white;
     color: black;
     font-size: larger;
     border: 2px solid black ;
+}
+.pdark{
+    font-size: 15px;
 }
 .bttn:hover{
     color: white;
@@ -349,4 +354,21 @@ input.textarea{
 
 .dark-mode .link{
     color: white;
+}
+
+
+/* delete button css */
+.plus{
+    padding-top: 10px;
+    color:#939CFF;
+}
+
+.pline{
+    text-decoration: none;
+}
+
+.marqueebox{
+    margin: 0px 0px 0px 25px;
+    background-color: rgba(219, 47, 104, 0.144);
+    width: 300px;
 }
