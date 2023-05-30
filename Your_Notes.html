@@ -10,8 +10,25 @@
       src="https://kit.fontawesome.com/74653ff230.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+    <link rel="stylesheet" href="daily.css" />
   </head>
   <body class="body">
-    <h1 class="heading1">COMING SOON</h1>
+    <h2 class="homehead"><a href="./ev.html" class="home">Home</a></h2>
+    <div id="myDIV" class="header">
+      <h2>Add your Daily tasks</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Hit the gym</li>
+      <li>Pay bills</li>
+      <li>Meet our friends</li>
+      <li>Buy grocery</li>
+      <li>Read a book</li>
+      <li>Organize table</li>
+    </ul>
+    <script src="daily.js"></script>
   </body>
 </html>
