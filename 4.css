@@ -1,4 +1,5 @@
 .body{
+    margin: 0px 0px 0px 10px;
     background: linear-gradient(to right , rgba(238, 19, 103, 0.753),rgba(0, 255, 255, 0.61));
 }
 
@@ -6,6 +7,7 @@
     text-align: center;
     margin-top: 50px;
     font-size: 100px;
+    margin-bottom: 0px;
 }
 #sec1{
     width: 250px;
@@ -46,3 +48,24 @@
     position: absolute;
     margin-left: 480px;
 }
+
+.upload{
+    margin-left: 540px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.home{
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+}
+
+.homehead{
+    padding: 5px 10px ;
+    background-color: black;
+    width: fit-content;
+    text-align: center;
+}
+
+/* trial */
